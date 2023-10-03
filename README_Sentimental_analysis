@@ -1,0 +1,63 @@
+# Flipkart Product Reviews Analysis
+
+## Introduction
+
+This repository contains Python code for scraping and analyzing product reviews from Flipkart, with a focus on the "Panasonic AC 1.5 ton 3 star rated" product. The analysis includes data cleaning, sentiment analysis, topic extraction, and hypothesis testing.
+
+## Data Collection
+
+- Data was collected by scraping product reviews from the Flipkart website using Python. Refer to the "Scraping the Reviews and Feature Data" section for details.
+
+## Data Cleaning
+
+- Null values were checked and handled if necessary.
+- Data formatting, pre-processing, and tokenization were performed to prepare the text data for analysis.
+- Stop words were removed to improve the quality of text data.
+
+## Sentiment Analysis
+
+- Sentiment analysis was conducted using VADER (Valence Aware Dictionary for sEntiment Reasoning).
+- The sentiment distribution of reviews was analyzed to understand overall sentiment polarity.
+
+## Satisfaction Class Assignment
+
+- Sentiment compound scores were used to assign satisfaction classes to reviews, such as "Positive," "Neutral," or "Negative."
+
+## Rating Authenticity
+
+- The authenticity of product ratings was validated by comparing them with the sentiment of reviews.
+
+## Topic Extraction
+
+- Non-negative Matrix Factorization (NMF) was used for topic extraction from the reviews.
+- Topics were tagged to each review to understand the key aspects of the product that influence opinions.
+
+## Word Clouds
+
+- Key positive and negative words were extracted from the reviews and visualized using word clouds.
+
+## Hypotheses Testing
+
+Several hypotheses were tested using the collected data:
+
+1. Hypothesis 1: High-rated reviews tend to have more upvotes.
+2. Hypothesis 2: Longer reviews are more likely to be positive.
+3. Hypothesis 3: Reviews with positive sentiment receive more upvotes.
+4. Hypothesis 4: Certain words strongly influence the sentiment of product reviews.
+5. Hypothesis 5: The location from which reviews are submitted influences sentiment and ratings.
+6. Hypothesis 6: The time or season of posting reviews influences sentiment and ratings.
+
+## Usage
+
+1. Install the required libraries mentioned in the "Importing Libraries" section.
+2. Run the Python script for data scraping, analysis, and hypothesis testing.
+3. Explore the results and visualizations to gain insights into the product reviews.
+
+## Notes
+
+- Make sure to follow ethical web scraping practices and respect the terms of service of the websites you scrape.
+- Adjust the code as needed if the structure of the Flipkart website changes.
+
+## Author
+Suraj N
+
